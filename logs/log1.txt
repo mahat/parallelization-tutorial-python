@@ -1,0 +1,8 @@
+{'rank': 0, 'time': datetime.datetime(2025, 5, 22, 1, 13, 14, 562537), 'sum': tensor(23), 'before_reduce': True}
+{'rank': 1, 'time': datetime.datetime(2025, 5, 22, 1, 13, 14, 562763), 'sum': tensor(8), 'before_reduce': True}
+{'rank': 3, 'time': datetime.datetime(2025, 5, 22, 1, 13, 14, 563004), 'sum': tensor(23), 'before_reduce': True}
+{'rank': 2, 'time': datetime.datetime(2025, 5, 22, 1, 13, 14, 563056), 'sum': tensor(24), 'before_reduce': True}
+{'rank': 1, 'time': datetime.datetime(2025, 5, 22, 1, 13, 14, 563999), 'sum': tensor(78), 'before_reduce': False}
+{'rank': 0, 'time': datetime.datetime(2025, 5, 22, 1, 13, 14, 563988), 'sum': tensor(78), 'before_reduce': False}
+{'rank': 2, 'time': datetime.datetime(2025, 5, 22, 1, 13, 14, 564026), 'sum': tensor(78), 'before_reduce': False}
+{'rank': 3, 'time': datetime.datetime(2025, 5, 22, 1, 13, 14, 564028), 'sum': tensor(78), 'before_reduce': False}
