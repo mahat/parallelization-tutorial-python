@@ -23,7 +23,13 @@ def distributed_demo(rank,world_size):
 
     print(f"rank {rank} data (before reduce scatter): {tensor_out}")
     dist.reduce_scatter_tensor(tensor_out, tensor_in)
+    # dist.reduce_scatter()
     print(f"rank {rank} data (after reduce scatter): {tensor_out}")
+    # create list of tensor
+    in_tensor_list = [torch.randn((3,)) for i in range(world_size)]
+    out_tensor_list = torch.empty(3)
+    # dist.reduce_scatter(out_tensor_list,in_tensor_list)
+    print(out_tensor_list)
    
 
 if __name__ == "__main__":
